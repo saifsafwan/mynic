@@ -14,5 +14,8 @@ Simple CRUD Application - Note
 - composer install
 - npm install
 - npm run dev
-- php artisan migrate-fresh --seed
+- cp .env.example .env
+- configure your database
+- php artisan migrate:fresh --seed
+- php artisan key:generate
 - php artisan serve
